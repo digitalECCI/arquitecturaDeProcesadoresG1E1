@@ -6,8 +6,11 @@ Arquitectura de Procesadores - Grupo 1 Equipo 1
 Este es el repositorio número 1 del la asignatura Arquitectura de Procesadores.
 
 ## Integrantes
-    * [<!-- David Orlando Torres >](<!https://github.com/davidortorresto-lab>) 
-    * [<Luis Cuervo >](<https://github.com/luis-cuervo>)
+* [David Orlando Torres](!https://github.com/davidortorresto-lab) 
+
+* [Luis Cuervo ](https://github.com/luis-cuervo)
+
+
 ## 1. Introducción
 
 En este laboratorio se realizó el diseño e implementación de un decodificador BCD a un display de siete segmentos utilizando descripción de hardware HDL y una tarjeta de desarrollo FPGA.
