@@ -6,7 +6,7 @@ Arquitectura de Procesadores - Grupo 1 Equipo 1
 Este es el repositorio número 1 del la asignatura Arquitectura de Procesadores.
 
 ## Integrantes
-* [David Orlando Torres](!https://github.com/davidortorresto-lab) 
+* [David Orlando Torres](https://github.com/davidortorresto-lab) 
 
 * [Luis Cuervo ](https://github.com/luis-cuervo)
 
