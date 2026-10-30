@@ -542,9 +542,6 @@ Se conectó la tarjeta al PC y se abrió un terminal serial ([PuTTY / Tera Term 
 | 81 | – | SHL | 02 | 0010 | [ ] | [ ] |
 | 7F | 01 | ADD | 80 | 1100 | [ ] | [ ] |
 
-![Salida en el terminal serial](docs/img/terminal.png)
-
-![Montaje en la tarjeta](docs/img/hardware.jpg)
 
 ## 9. Análisis de resultados
 
