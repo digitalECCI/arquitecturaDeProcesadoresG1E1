@@ -1,0 +1,45 @@
+VCD info: dumpfile consola.vcd opened for output.
+
+[LED] t=10000 ps  led = 0000
+
+picoSoC Shell - escribe 'help'
+> help
+help
+led <n> <on|off>
+leds <valor 0-15 o 0x0-0xF>
+sw
+calc <a> <op> <b>  (+ - * /)
+blink <n> <veces>
+knight [ciclos]  (tecla = parar)
+> led 1 on
+[LED] t=18704390000 ps  led = 0010
+
+ok
+> led 3 on
+[LED] t=21114930000 ps  led = 1010
+
+ok
+> led 1 off
+[LED] t=23719470000 ps  led = 1000
+
+ok
+> leds 0xA
+[LED] t=26126750000 ps  led = 1010
+
+LEDs = 0b1010
+> sw
+switches = 0b0101
+> calc 6 * 7
+6 * 7 = 42
+> calc 100 / 7
+100 / 7 = 14
+> calc 5 / 0
+division por cero
+> led 9 on
+uso: led <0-3> <on|off>
+> hola
+comando desconocido (help)
+>
+
+--- fin de la simulacion ---
+tb_consola.v:145: $finish called at 50029090000 (1ps)
