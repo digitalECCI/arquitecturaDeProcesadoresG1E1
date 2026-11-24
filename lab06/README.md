@@ -38,9 +38,9 @@ Base: [`picoSoC_simple`](https://github.com/digital-ECCI/picoSoC_simple) (Univer
 
 El resto de archivos (`picorv32.v`, `simpleuart.v`, `progmem.py`, `start.s`, `Makefile`, etc.) son los del repositorio base, sin cambios.
 
-![Carpeta del proyecto](docs/fig01_estructura_proyecto.png)
 
-*Figura 1. Carpeta del proyecto `picoSoC_simple` con los archivos del repositorio y los entregables.*
+
+
 
 ## 2. Herramientas
 
@@ -241,7 +241,7 @@ Ambas compilan (el firmware actual ocupa 3608 de los 4096 bytes disponibles), pe
 | `rx`, `tx` | `AB16`, `V10` |
 | `sw[3:0]` | **Sin asignar** (Quartus les dio `H11`, `J10`, `B7`, `A6`) |
 
-Antes de probar en la tarjeta hay que asignar los switches (`C10`, `C11`, `D12` y `C12` en la DE10-Lite, **a confirmar con el manual**), y conviene revisar `led[2]` y `led[3]` si se quieren cuatro LEDs contiguos.
+Antes de probar en la tarjeta hay que asignar los switches (`C10`, `C11`, `D12` y `C12` en la DE10-Lite, ), y conviene revisar `led[2]` y `led[3]` si se quieren cuatro LEDs contiguos.
 
 ## 12. Prueba en hardware (pendiente)
 
